@@ -65,7 +65,7 @@ tr,td{
     color: indigo;
 }
 
-form{
+.box-one{
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -76,3 +76,12 @@ form{
     padding: 30px;
 }
 
+/* create a styles for Register.html page */
+
+input,label{
+    padding: 5px;
+}
+.Register-container{
+display: flex;
+justify-content: center;
+}
