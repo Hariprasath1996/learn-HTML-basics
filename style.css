@@ -5,22 +5,31 @@ margin: 0;
 
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: cornflowerblue;
 }
 .Section-One{
     display: block;
     text-align: center;
     padding: 20px;
+
 }
 h1,h3,p{
     padding: 10px;
     text-align: center;
+    color: white;
 }
 iframe{
     display: inline-block;
     margin-left: 35%;
+   
+}
+.video{
+    background-color: darkslateblue;
+    padding: 10px;
 }
 .para-two{
     padding: 20px;
+    color: white;
 }
 .Section-Two{
     display: block;
@@ -30,12 +39,15 @@ iframe{
 
 ul{
     padding: 15px;
+    color: white;
 }
 li{
     list-style: none;
+    padding: 5px;
+
 }
 .Section-Three{
-    display: inline;
+    display: block;
     text-align: center;
     padding: 10px;
 }
@@ -46,6 +58,12 @@ th,tr,td{
     border: 1px solid black;
     padding: 10px;
 }
+th{
+    color: white;
+}
+tr,td{
+    color: indigo;
+}
 
 form{
     display: flex;
@@ -55,8 +73,6 @@ form{
 .Section-four{
     display: block;
     text-align: center;
-    padding: 50px;
-    font-size: large;
-    gap: 10px;
+    padding: 30px;
 }
 
